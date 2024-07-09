@@ -115,11 +115,13 @@ Row height
     /* border: 2px solid red; */
     margin: 0 auto;
     padding: 32px;
+    
 }
 
 
 .youtube-vedio{
     border-radius: 10px;
+    
     
 
 }
@@ -137,4 +139,28 @@ Row height
     height: 26px;
     text-align: center;
     margin-bottom: 48px;
+}
+
+
+.skill-content{
+    width: 1140px;
+    height: 463px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.skill-content-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 800px;
+    font-size: 32px;
+}
+
+.skill-content-description{
+    font-size: 16px;
+    margin: 144;
+    text-align: center;
+    margin-top: 24px;
 }
