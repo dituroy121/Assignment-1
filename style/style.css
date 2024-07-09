@@ -11,9 +11,8 @@ body{
 }
 
 .banner-container{
-    max-width: 1440px;
+   max-width: : 1440px;
     height: 652px;
-
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -73,4 +72,69 @@ Row height
     text-decoration: none;
     font-size: 20px;
     
+}
+
+
+/* .midnight-section{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.leftside-content-part1{
+    width: 1140px;
+    height: 1336px;
+    display: flex;
+}
+.leftside-content-1{
+    width: 50%;
+    height: 336px;
+    border: 2px solid green;
+}
+
+.rightside-content-1{
+    width: 50%;
+    height: 336px;
+    border: 2px solid blue;
+}
+
+.leftside-content-part2{
+    display: flex;
+}
+
+.leftside-content-2{
+    border: 2px solid gold;
+    height: 772px;
+} */
+
+.youtube-content{
+    width: 1140px;
+    height: 777px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    padding: 32px;
+}
+
+
+.youtube-vedio{
+    border-radius: 10px;
+    
+
+}
+
+.youtube-title{
+    text-align: center;
+    font-size: 32px;
+    weight: 800;
+    margin-bottom: 24px;
+}
+
+.youtube-description{
+    font-size: 16px;
+    weight: 400;
+    height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
 }
