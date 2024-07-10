@@ -118,12 +118,9 @@ Row height
     
 }
 
-
 .youtube-vedio{
     border-radius: 10px;
     
-    
-
 }
 
 .youtube-title{
@@ -147,12 +144,12 @@ Row height
     height: 463px;
     margin: 0 auto;
     margin-top: 151px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 
 .slill-continer{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,18 +161,11 @@ Row height
 
 }
 
-.skill-content h1{
-    font-size: 32px;
-    width: 852px;
-    height: 39px;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
-
 .skill-content p{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;    
+    margin-top: 24px;
 }
 
 .skill-content-description{
@@ -187,24 +177,93 @@ Row height
     border-radius: 10px;
     width: 364px;
     height: 300px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 40px;
-    
+    background-color: rgba(255, 76, 30, 0.05);
 
 }
 
 .skill-ccs{
     width: 364px;
     height: 300px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 40px;
     border-radius: 10px;
+    background-color: rgba(0, 76, 232, 0.05);
 }
 
 .skill-java{
     width: 364px;
     height: 300px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 40px;
     border-radius: 10px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.support-content{
+    background-image: url(/assets/handshake.jpg);
+    width: 1140px;
+    height: 314px;
+    border: 2px solid rebeccapurple;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(13, 19, 33, 1);
+    text-align: center;
+    margin-top: 154px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 80px;
+}
+
+.support-continer{
+    text-align: center;
+    margin-top: 64px;
+}
+
+.support-content h1{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+.support-content p{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.support-input{
+    margin-top: 24px;
+    width: 548px;
+    font-size: 16px;
+    padding: 15px;
+    height: 57px;
+   
+}
+.support-btn{
+    height: 57px;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+    height: 100px;
+    margin-top: 32px;
+}
+
+.footer-icon{
+    justify-content: space-between
+}
+
+.footer-contener h3{
+    font-size: 20px;
 }
