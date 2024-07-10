@@ -145,22 +145,66 @@ Row height
 .skill-content{
     width: 1140px;
     height: 463px;
-    border: 2px solid black;
     margin: 0 auto;
     margin-top: 151px;
+    border: 2px solid red;
+    
 }
 
-.skill-content-title{
+.slill-continer{
+    border: 2px solid green;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    font-weight: 800px;
+    margin: 0 auto;
+    width: 852px;
+    height: 115px;
+    margin-bottom: 48px;
+
+}
+
+.skill-content h1{
     font-size: 32px;
+    width: 852px;
+    height: 39px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.skill-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;    
 }
 
 .skill-content-description{
-    font-size: 16px;
-    margin: 144;
-    text-align: center;
-    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+
+}
+.skill-html{
+    border-radius: 10px;
+    width: 364px;
+    height: 300px;
+    border: 2px solid blue;
+    padding: 40px;
+    
+
+}
+
+.skill-ccs{
+    width: 364px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.skill-java{
+    width: 364px;
+    height: 300px;
+    border: 2px solid green;
+    padding: 40px;
+    border-radius: 10px;
 }
