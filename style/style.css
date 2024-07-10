@@ -24,12 +24,7 @@ body{
     width: 998px;
     margin: 221 221 26 21;
     margin: 0 auto;
-
-600
-Font size
-20px
-Row height
-23px
+    font-size: 20px;
 }
 .banner{
     width: 240.28;
@@ -74,40 +69,46 @@ Row height
     
 }
 
-
-/* .midnight-section{
+.development-continer{
     width: 1140px;
-    height: 1395px;
+    height: 1393px;
     border: 2px solid red;
     margin: 0 auto;
-    display: flex;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+
+.development-conten{
+    width: 946px;
+    height: 1233px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+.development-conten-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.development-conten-part1{
+    width: 946px;
+    height: 336px;
+    border: 2px solid 2px;
     
 }
-.leftside-content-part1{
-    width: 1140px;
-    height: 1336px;
-    display: flex;
-}
-.leftside-content-1{
-    width: 50%;
-    height: 336px;
-    border: 2px solid green;
-}
 
-.rightside-content-1{
-    width: 50%;
-    height: 336px;
-    border: 2px solid blue;
-}
 
-.leftside-content-part2{
-    display: flex;
-}
 
-.leftside-content-2{
-    border: 2px solid gold;
-    height: 772px;
-} */
+
+
+
+
+
+
+
+
 
 .youtube-content{
     width: 1140px;
@@ -136,6 +137,7 @@ Row height
     height: 26px;
     text-align: center;
     margin-bottom: 48px;
+    
 }
 
 
@@ -205,13 +207,12 @@ Row height
     background-image: url(/assets/handshake.jpg);
     width: 1140px;
     height: 314px;
-    border: 2px solid rebeccapurple;
     margin: 0 auto;
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(13, 19, 33, 1);
+
     text-align: center;
     margin-top: 154px;
     background-blend-mode: overlay;
@@ -261,7 +262,8 @@ Row height
 }
 
 .footer-icon{
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .footer-contener h3{
