@@ -69,45 +69,71 @@ body{
     
 }
 
-.development-continer{
+
+.why-webdebelopments{
     width: 1140px;
-    height: 1393px;
-    border: 2px solid red;
+    height: 1233px;
     margin: 0 auto;
+    padding: 97px;
     background-color: rgba(13, 19, 33, 0.02);
 }
-
-
-.development-conten{
-    width: 946px;
-    height: 1233px;
-    border: 2px solid blue;
-    margin: 0 auto;
-    margin-top: 80px;
-}
-
-
-.development-conten-title{
+.why-webdebelopment-title{
     text-align: center;
+    padding: 0 47px;
     margin-bottom: 48px;
 }
-
-.development-conten-part1{
+.image-part{
     width: 946px;
-    height: 336px;
-    border: 2px solid 2px;
+    margin: auto;
+}
+.part-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin: 0 auto;
     
 }
-
-
-
-
-
-
-
-
-
-
+.part-1-ariea{
+    width: 447px;
+    height: 140px;
+}
+.part-1-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.part-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin: 0 auto;
+    
+}
+.part-2-ariea{
+    width: 447px;
+    height: 140px;
+}
+.part-2-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.part-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin: 0 auto;
+    
+}
+.part-3-ariea{
+    width: 447px;
+    height: 140px;
+}
+.part-3-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.web-primary-btn{
+    margin-top: 24px;
+}
 
 
 .youtube-content{
